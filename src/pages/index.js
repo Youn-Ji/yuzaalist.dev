@@ -2,15 +2,13 @@ import React, { useCallback, useState } from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../layout';
 import Seo from '../components/seo';
-import Bio from '../components/bio';
 import Post from '../models/post';
-
+import CategoryPageHeader from '../components/category-page-header';
 import { getUniqueCategories } from '../utils/helpers';
 import PostTabs from '../components/post-tabs';
 
 function HomePage({ data }) {
   const posts = data.allMarkdownRemark.edges.map(({ node }) => new Post(node));
-  const { author, language } = data.site.siteMetadata;
   const categories = ['All', ...getUniqueCategories(posts)];
   const featuredTabIndex = categories.findIndex((category) => category === 'featured');
   const [tabIndex, setTabIndex] = useState(featuredTabIndex === -1 ? 0 : featuredTabIndex);
@@ -18,14 +16,13 @@ function HomePage({ data }) {
 
   return (
     <Layout>
-      <Seo title="Home" />
-      <Bio author={author} language={language} />
+      <Seo title="yuzaalist" />
+      <CategoryPageHeader title={categories[tabIndex]} subtitle={`${posts.length} posts`} />
       <PostTabs
-        posts={posts}
+        tabIndex={tabIndex}
         onChange={onTabIndexChange}
         tabs={categories}
-        tabIndex={tabIndex}
-        showMoreButton
+        posts={posts}
       />
     </Layout>
   );

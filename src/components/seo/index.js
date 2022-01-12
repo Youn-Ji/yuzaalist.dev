@@ -13,7 +13,6 @@ function Seo({ description, title }) {
             author {
               name
             }
-            ogImage
           }
         }
       }
@@ -46,10 +45,6 @@ function Seo({ description, title }) {
         {
           property: 'og:author',
           content: site.siteMetadata.author.name,
-        },
-        {
-          property: 'og:image',
-          content: site.siteMetadata.ogImage,
         },
 
         {
