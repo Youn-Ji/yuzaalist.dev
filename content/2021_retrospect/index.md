@@ -12,7 +12,7 @@ categories: featured
 코딩 부트캠프를 2월에 수료하고 한 달간 취업 준비를 했다. 
 ### 4월, 현재 회사의 인턴으로 입사
 
-![hello everyone](./hello-everyone.png)
+![hello everyone](../../assets/hello-everyone.png)
 
 - 뭐가 뭔지 모른채 개발환경을 세팅했고, 주어지는 일을 쳐나갔다. 처음 받은 업무는 홈페이지 약관 링크 변경이었는데, 배웠던 것을 써먹을 생각에 설레고 흥분되었던 것이 생각난다. 
 - remote와 local 브랜치 싱크 맞추라는 말도 이해 못했던 그때.. 이제는 cli 도 어느정도 알고, git이 꼬일까봐 겁내지도 않는다.
