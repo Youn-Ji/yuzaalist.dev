@@ -4,7 +4,7 @@ title: Remix Quickstart 따라해보기
 date: '2022-02-13 23:00:00'
 author: 유자
 tags: remix quickstart typescript vscode
-categories: featured remix
+categories: remix
 ---
 
 
