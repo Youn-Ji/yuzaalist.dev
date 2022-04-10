@@ -4,7 +4,7 @@ title: 2021 회고
 date: '2022-01-23 23:00:00'
 author: 유자
 tags: 다또 2021 회고
-categories: featured
+categories: diary
 ---
 
 

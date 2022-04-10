@@ -7,7 +7,7 @@ tags: WebAPI ResizeObserver IntersectionObserver chatting scroll react
 categories: featured challenge
 ---
 
-웹에서 채팅 기능을 구현할 기회가 있었다. 소켓을 활용해 실시간 채팅을 구현하는 것 외에도 애를 먹었던 작업이 있었는데, 바로 스크롤이었다. 
+웹에서 채팅 기능을 구현할 기회가 있었다. 소켓을 활용해 실시간 채팅을 구현하는 것 외에도 애를 먹었던 작업f이 있었는데, 바로 스크롤이었다. 
 
 이전 채팅 목록을 확인하기 위해 스크롤을 위로 올리면 유저가 보고 있는 스크롤은 그대로 유지한 채, 위에만 내용을 불러와 붙여야 했다. 
 
