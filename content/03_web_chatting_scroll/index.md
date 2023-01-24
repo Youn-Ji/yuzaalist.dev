@@ -4,7 +4,7 @@ title: 웹에서 채팅 스크롤 구현해보기
 date: '2022-03-27 23:00:00'
 author: 유자
 tags: WebAPI ResizeObserver IntersectionObserver chatting scroll react
-categories: featured challenge
+categories: challenge
 ---
 
 웹에서 채팅 기능을 구현할 기회가 있었다. 소켓을 활용해 실시간 채팅을 구현하는 것 외에도 애를 먹었던 작업f이 있었는데, 바로 스크롤이었다. 

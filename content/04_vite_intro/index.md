@@ -4,7 +4,7 @@ title: Vite 너 뭐 돼?
 date: '2022-04-10 23:00:00'
 author: 유자
 tags: react vite 
-categories: featured challenge
+categories: challenge
 ---
 
 작년에 회사에서 리뉴얼 프로젝트가 있었다. 기존 서비스에서 UI, 기능을 개선해 유저에게 새롭게 선보이는 것이었다. 프레임워크부터 다 새로 정할 수 있는 상황이었는데 팀장님께서 Vite를 써보자고 하셨다.
@@ -13,6 +13,7 @@ categories: featured challenge
 ![what is this](../../assets/09_what-is-this-edit.png)
 
 지금이라도 Vite가 어떤 문제를 해결하기 위해 나왔고, 그 문제를 해결하기 위해 어떻게 했는지 알아보려고 한다.
+(공식 문서 가이드 중 [Why Vite](https://vitejs.dev/guide/why.html) 챕터를 참고해 작성되었습니다.)
 
 ##  해결하고자 한 문제점 
 
