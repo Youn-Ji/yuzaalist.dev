@@ -2,10 +2,10 @@ module.exports = {
   title: `yuzaalist.dev`,
   description: `유자의 개발일기`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.yuzaalist.dev`,
+  siteUrl: `https://www.yuzaalist.com`,
   comments: {
     utterances: {
-      repo: `Youn-Ji/yuzaalist.dev`, // `zoomkoding/zoomkoding-gatsby-blog`,
+      repo: `yuzaa00/yuzaalist.dev`, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
   ga: '0', // Google Analytics Tracking ID
@@ -13,11 +13,11 @@ module.exports = {
     name: `송윤지`,
     bio: {
       role: `개발자`,
-      description: ['사람에 가치를 두는'],
+      description: ['귀를 기울이는'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
-      github: `https://github.com/Youn-Ji`, // `https://github.com/`,
+      github: `https://github.com/yuzaa00`, // `https://github.com/`,
       linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
       email: `syj9760@gmail.com`, // `zoomkoding@gmail.com`,
     },
