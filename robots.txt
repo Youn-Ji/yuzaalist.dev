@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: https://www.yuzaalist.dev/sitemap/sitemap-index.xml
-Host: https://www.yuzaalist.dev
+Sitemap: https://www.yuzaalist.com/sitemap/sitemap-index.xml
+Host: https://www.yuzaalist.com
